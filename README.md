@@ -32,3 +32,10 @@ To run this on a remote machine we need a flag "log compilation". For this we ne
 
 To find the size of the code cache
 ```
+
+```
+4) -XX:ReservedCodeCacheSize=28m
+
+To change the code cache size
+Each of this values can be provided in either bytes, kilobytes(k/K) or megabytes(m/M)
+```
